@@ -131,5 +131,6 @@ def fuzzy_merge(df1,
         output=output,
         methods=method,
         **kwargs)
+    return 'Hello'
     print('results from csvmatch', results)
     return pd.DataFrame(results, columns=keys)
